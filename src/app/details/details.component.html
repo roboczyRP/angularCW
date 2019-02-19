@@ -1,0 +1,15 @@
+<h1>{{ userDetails.name }}</h1>
+<ul>
+  <li><strong>Username: </strong>{{ userDetails.username }}</li>
+  <li><strong>Email: </strong>{{ userDetails.email }}</li>
+  <li><strong>Phone: </strong>{{ userDetails.phone }}</li>
+</ul>
+<h2>Posts</h2>
+<ul>
+  <li *ngFor="let post of userPosts">
+    <ul>
+      <li><h4>{{post.title}}</h4></li>
+      <li>{{post.body}}</li>
+    </ul>
+  </li>
+</ul>
