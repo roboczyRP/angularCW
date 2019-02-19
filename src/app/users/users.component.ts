@@ -16,6 +16,8 @@ export class UsersComponent implements OnInit {
       data => this.Users = data
     )
   }
+  
+  testMethod(){}
 
   
 
