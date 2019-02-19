@@ -20,6 +20,9 @@ export class UsersComponent implements OnInit {
   methodTest(){
     let zmienna = 1
   }
+  testMethod(){
+    let zmienna = 'tralalalala'
+  }
 
   
 
