@@ -17,7 +17,9 @@ export class UsersComponent implements OnInit {
     )
   }
   
-  testMethod(){}
+  methodTest(){
+    let zmienna = 1
+  }
 
   
 
